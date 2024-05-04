@@ -11,19 +11,19 @@ function Products() {
         case: false,
     },
     {
-        title: "TTR",
+        title: "Candid",
         description: "Lorem ipsum dolt eum minus harum inquos doloremque unde cupiditate dicta vero, quae reprehenderit nemo.",
         live: true,
         case:false,
     },
     {
-        title: "YIR 2022",
+        title: "Life magic",
         description: "Lorem ipsum dolt eum minus harum inquos doloremque unde cupiditate dicta vero, quae reprehenderit nemo.",
         live: true,
         case: true,
     },
     {
-        title: "Yahooo!!!",
+        title: "Showcase",
         description: "Lorem ipsum dolt eum minus harum inquos doloremque unde cupiditate dicta vero, quae reprehenderit nemo.",
         live: true,
         case: true,
@@ -43,31 +43,34 @@ function Products() {
             <motion.div  initial={{ y: pos , x : "-50%" }}  
             animate={{ y: pos+ `rem` }} 
             transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}
-              className="window absolute w-[32rem] h-[23rem] bg-white left-[44%]   overflow-hidden">
+              className="window absolute w-[32rem] h-[23rem] bg-white left-[44%] rounded-2xl  overflow-hidden">
 
                 <motion.div
                  animate={{y: -pos+`rem`}}
                   transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}
-                  className='w-full h-full bg-sky-200'>
-                    <video src=""></video>
+                  className='w-full h-full '>
+                   <video src=".\public\video1.mp4" autoPlay loop muted ></video>
 
                   </motion.div>
                 <motion.div
                  animate={{y: -pos+`rem`}}
                   transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}
-                  className='w-full h-full bg-sky-300'>
+                  className='w-full h-full '>
+                    <video src=".\public\video2.mp4" autoPlay loop muted ></video>
 
                   </motion.div>
                 <motion.div
                  animate={{y: -pos+`rem`}}
                   transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}} 
-                 className='w-full h-full bg-sky-400'>
+                 className='w-full h-full'>
+                  <video src=".\public\video3.mp4" autoPlay loop muted ></video>
 
                  </motion.div>
                 <motion.div
                  animate={{y: -pos+`rem`}}
                   transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}
-                  className='w-full h-full bg-sky-500'>
+                  className='w-full h-full '>
+                    <video src=".\public\video4.mp4" autoPlay loop muted ></video>
 
                   </motion.div>
                 
